@@ -1,6 +1,17 @@
 <!doctype html>
 <html lang="fr">
 <head>
+ <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'TAG_ID');
+    </script>
+
+	
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -54,9 +65,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           discount: 2.22,
           index: 0,
           item_brand: "SRFC",
-          item_category: "Maillot",
-          item_category2: "Adulte",
-          item_category3: "Rouge",
+          type_produit: "Maillot",
+          cat_age: "Adulte",
+          couleur: "Rouge",
          
           price: 90.00,
           quantity: 1
